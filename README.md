@@ -95,7 +95,16 @@ Action Name                                              | sps-api-request id | 
 ソフトバンクまとめて支払い B 継続課金(定期) 確定処理     | `ST02-00201-405`   | `Sbpayment::API::Softbank::CommitRequest`        |
 ソフトバンクまとめて支払い(B)継続課金(定期) 取消返金要求 | `ST02-00303-405`   | `Sbpayment::API::Softbank::CancelRefundRequest`  |
 
-###### Payeasy
+##### Webcvs
+
+Action Name			| sps-api-request id | Request class						|
+---				| ---                | ---							|
+WEBコンビニ決済要求		| `ST01-00101-701`   | `Sbpayment::API::Webcvs::PaymentRequest`			|
+WEBコンビニ決済結果参照		| `ST01-00101-701`   | `Sbpayment::API::Webcvs::ReadPaymentResultRequest`	|
+WEBコンビニ入金通知		| `NT01-00103-701`   | `Sbpayment::API::Webcvs::NoticeRequest`			|
+WEBコンビニキャンセル通知	| `NT01-00104-701`   | `Sbpayment::API::Webcvs::CancelRequest`			|
+
+##### Payeasy
 
 Action Name		| sps-api-request id | Request class                             |
 ---			| ---                | ---                                       |
